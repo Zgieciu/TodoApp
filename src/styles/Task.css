@@ -1,0 +1,17 @@
+li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.important {
+    color: red;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #decece;
+}
+
+li button:hover {
+    color: rgb(47, 14, 191);
+}

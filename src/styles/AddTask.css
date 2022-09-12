@@ -1,0 +1,37 @@
+.add-task {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #000000;
+}
+
+.add-task label { 
+    width: 40%;
+    font-size: 20px;
+}
+
+.add-task input {
+    width: 60%;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.add-task .checkbox {
+    width: 50px;
+    text-align: center;
+}
+
+.add-task input[type=checkbox] {
+    height: 25px;
+}
+
+.add-task button {
+    margin-left: auto;
+    background-color: #decece;
+}
+
+.add-task button:hover {
+    color: #1b9c1b;
+}
+

@@ -1,0 +1,40 @@
+.done-tasks {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.done-tasks h3 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.done-tasks div {
+    min-height: 40px;
+    border-right: 2px dashed #000000;
+    border-bottom: 2px dashed #000000;
+    line-height: 40px;
+}
+
+.done-tasks div:nth-of-type(1), .done-tasks div:nth-of-type(2), .done-tasks div:nth-of-type(3) {
+    padding-bottom: 8px;
+    font-weight: bold;
+} 
+
+.done-tasks .first-column {
+    width: 40%;
+}
+
+.done-tasks .second-column {
+    width: 30%;
+}
+
+.done-tasks .third-column {
+    width: 20%;
+    border-right: 0;
+}
+
+.done-tasks button:hover {
+    color: red;
+}

@@ -1,0 +1,6 @@
+ul {
+    padding: 20px;
+    border-bottom: 2px dashed #000000;
+    list-style-type: none;
+    text-align: left;
+}
